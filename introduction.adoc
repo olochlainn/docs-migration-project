@@ -21,8 +21,16 @@ The simplest configuration is a repo dedicated to a single module. The most basi
 ----
 antora.yml
 modules/
-  module-example1/
-    nav.adoc
-    pages/
-      page-content1.adoc
+   module-example1/
+      nav.adoc
+      pages/
+         page-content1.adoc
+         ...
+      assets/images
+         image-content1.png
+         ...
 ----
+
+The *modules* folder contains one or more module folders. Each module folder contains a *pages* folder and a *nav.adoc* file.
+
+The *pages* folder contains the Asciidoc files with the module content. It can contain a large number of pages; keep in mind that the navigation through these pages is provided by the *nav.adoc* file and is displayed in the left of the UI.
