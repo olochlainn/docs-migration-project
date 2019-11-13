@@ -37,4 +37,4 @@ The *pages* folder contains the Asciidoc files with the module content. It can c
 
 == Asciidoc vs Markdown
 
-Asciidoc and Markdown are both classed as lightweight markup languages. Although many developers use Markdown, Asciidoc is a much more comprehensive solution. There is a lot more in the User Guide! However, the basics are quite similar so it will not be difficult to swith from Markdown to Asciidoc.
+Asciidoc and Markdown are both classed as lightweight markup languages. Although many developers use Markdown, Asciidoc is a much more comprehensive solution. There is a lot more in the User Guide! However, the basics are quite similar so it will not be difficult to switch from Markdown to Asciidoc.
