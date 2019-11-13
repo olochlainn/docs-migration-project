@@ -9,3 +9,20 @@ We need to map the repos containing Asciidoc documentation to the modules presen
 * The docs module(s) may be nested within the repo
 
 In turn, a module in the UI can be mapped to a single repo, or draw content from multiple repos.
+
+== Antora
+
+Antora is the static site generator (SSG) that takes the Asciidoc content from the repos and generates a website from it, delivering the online documentation.
+
+Antora requires a specific directory organization within the repo, and some configuration files. These details will be provided by the Technical Writer (TW).
+
+The simplest configuration is a repo dedicated to a single module. The most basic version contains the following:
+
+----
+antora.yml
+modules/
+  module-example1/
+    nav.adoc
+    pages/
+      page-content1.adoc
+----
