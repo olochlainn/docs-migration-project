@@ -1,3 +1,11 @@
 = Introduction to docs migration project
 
+== Repos
 
+We need to map the repos containing Asciidoc documentation to the modules presented by the online help UI. Several repo configurations are possible:
+
+* A repo contains a single docs module
+* A repo contains multiple docs modules
+* The docs module(s) may be nested within the repo
+
+In turn, a module in the UI can be mapped to a single repo, or draw content from multiple repos.
