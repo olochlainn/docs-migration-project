@@ -10,6 +10,17 @@ We need to map the repos containing Asciidoc documentation to the modules presen
 
 In turn, a module in the UI can be mapped to a single repo, or draw content from multiple repos.
 
+Siren-platform for federate doc - already setup 
+SirenML - https://github.com/sirensolutions/siren-ml
+Siren Alert - https://github.com/sirensolutions/sentinl-private
+Data reflection - https://github.com/sirensolutions/ingest
+Siren-ER API - https://github.com/sirensolutions/er-api (there is a google doc that needs to be included as well) https://docs.google.com/document/d/18misuAwAraHGmjHQ6fXCarVMWwEJ-WZcsR_kPnqynkk/edit?ts=5d5aafb5#
+Scripting (new) - https://github.com/sirensolutions/scripting
+Web services (new) - https://github.com/sirensolutions/siren-web-services
+Dashboard Visualisations - graph browser, topic cluster etc in each folder in https://github.com/sirensolutions/kibi-enterprise
+
+kibi-internal - for Investigate core
+
 == Antora
 
 Antora is the static site generator (SSG) that takes the Asciidoc content from the repos and generates a website from it, delivering the online documentation.
